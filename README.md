@@ -35,3 +35,10 @@ Need some help? I've got a chatbox on my site [courses.chrisoncode.io](https://c
 If you've found some problems with the files and apps we've built, I'm happy to look at pull requests. I try to keep these files as **close to the videos** as possible so I'm not looking for full rewrites.
 
 Any big errors or clarifications that you see, pull requests are appreciated!
+
+## Linting Setup
+
+```
+yarn add -D --exact prettier
+yarn add -D eslint@6.8.0 eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks
+```
